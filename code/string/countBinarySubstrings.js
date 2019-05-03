@@ -13,8 +13,8 @@
 //     // str[0] ^ 1 => 1 ^ 1 = 0  0 ^ 1 = 1
 //     str += `${str[0] ^ 1}`.repeat(str.length)
 //     let reg = new RegExp(`^${str}`)
-//     reg.exec(sub) && arr.push(RegExp['$&'])
-//     // console.log(arr) // [ '0011', '01', '1100', '10', '0011', '01' ]
+//     reg.test(sub) && arr.push(RegExp['$&'])
+//     console.log(arr) // [ '0011', '01', '1100', '10', '0011', '01' ]
 //   }
 //   return arr.length
 // }
