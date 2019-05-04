@@ -20,7 +20,7 @@ const cardGroups = deck => {
     obj[item] ? obj[item]++ : (obj[item] = 1)
   })
   const lens = Object.values(obj)
-  let l = lens[0]
+  let l = lens.shift()
   for (let k of lens) {
     l = gcd(l, k)
   }
