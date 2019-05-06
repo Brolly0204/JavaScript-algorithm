@@ -24,6 +24,6 @@ const findKthLargest = (nums, k) => {
   // 倒数第k个的索引 len - k
   return nums[len - k]
 }
-// console.log(findKthLargest([3, 2, 1, 5, 6, 4], 2))
+console.log(findKthLargest([3, 2, 1, 5, 6, 4], 2))
 // console.log(findKthLargest([3, 2, 3, 1, 2, 4, 5, 5, 6], 4))
 export default findKthLargest
