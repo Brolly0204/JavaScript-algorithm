@@ -8,7 +8,6 @@ const selectSort = arr => {
         minIdx = j
       }
     }
-
     let temp = arr[i]
     arr[i] = arr[minIdx]
     arr[minIdx] = temp
