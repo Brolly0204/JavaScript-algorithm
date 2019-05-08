@@ -21,8 +21,8 @@ const findSubstring = (s, words) => {
     } else {
       _arr.forEach((item, idx) => {
         let tmp = [].concat(_arr)
-        tmp.splice(idx, 1)
-        range(r.concat(item), tmp)
+        let d = tmp.splice(idx, 1)
+        range(r.concat(d), tmp)
       })
     }
   }
