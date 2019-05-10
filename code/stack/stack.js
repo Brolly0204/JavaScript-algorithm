@@ -21,6 +21,7 @@ const Stack = (() => {
     }
 
     peek() {
+      // 返回栈顶元素
       let list = wm.get(this)
       return list[this.top - 1]
     }
